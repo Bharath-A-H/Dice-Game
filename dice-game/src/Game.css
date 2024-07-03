@@ -1,63 +1,60 @@
-
-
 body {
-    background-color: #f0f8ff;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .game {
-    text-align: center;
-    padding: 50px;
-  }
-  
-  h1 {
-    color: #333;
-    font-size: 3em;
-    margin-bottom: 20px;
-  }
-  
-  .dice-container {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    margin: 40px 0;
-  }
-  
-  .dice-container div {
-    text-align: center;
-  }
-  
-  h2 {
-    color: #444;
-    font-size: 2em;
-    margin-bottom: 10px;
-  }
-  
-  button {
-    padding: 15px 30px;
-    font-size: 1.5em;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
-    background-color: #008cba;
-    color: white;
-    transition: background-color 0.3s ease;
-  }
-  
-  button:hover {
-    background-color: #005f5f;
-  }
-  
-  .dice img {
-    width: 100px;
-    height: 100px;
-  }
-  
-  .winner-message {
-    color: #333;
-    font-size: 2em;
-    margin-top: 20px;
-  }
-  
+  background-color: #f0f8ff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.game {
+  text-align: center;
+  padding: 50px;
+}
+
+h1 {
+  color: #333;
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.dice-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 40px 0;
+}
+
+.dice-container div {
+  text-align: center;
+}
+
+h2 {
+  color: #444;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 1.5em;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #008cba;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005f5f;
+}
+
+.dice img {
+  width: 100px;
+  height: 100px;
+}
+
+.winner-message {
+  color: #333;
+  font-size: 2em;
+  margin-top: 20px;
+}
