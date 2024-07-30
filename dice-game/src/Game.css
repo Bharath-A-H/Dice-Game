@@ -1,18 +1,30 @@
 body {
-  background-color: #f0f8ff;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-image: url("C:\Users\Bharath\Downloads\d111.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .game {
   text-align: center;
-  padding: 50px;
+  padding: 40px;
+  border-radius: 15px;
+  max-width: 800px;
+  width: 100%;
+  /* Light background color with slight transparency */
 }
 
 h1 {
-  color: #333;
-  font-size: 3em;
+  color: #070707; /* Dark font color */
+  font-size: 2.5em;
   margin-bottom: 20px;
 }
 
@@ -28,7 +40,7 @@ h1 {
 }
 
 h2 {
-  color: #444;
+  color: #333333; /* Dark font color */
   font-size: 2em;
   margin-bottom: 10px;
 }
@@ -54,7 +66,7 @@ button:hover {
 }
 
 .winner-message {
-  color: #333;
+  color: #333333; /* Dark font color */
   font-size: 2em;
   margin-top: 20px;
 }
